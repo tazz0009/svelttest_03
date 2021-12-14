@@ -1,6 +1,8 @@
 <script>
   import PollStore from "../stores/PollStore";
   import PollDetails from "./PollDetails.svelte";
+
+  console.log($PollStore);
 </script>
 
 <h1>Current Polls</h1>
@@ -11,9 +13,6 @@
 </div>
 
 <style>
-  .cards {
-  }
-
   @media screen and (max-width: 425px) {
   }
 
